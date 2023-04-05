@@ -1,0 +1,12 @@
+package amazone;
+
+public class GetAndSetData {
+
+	public static void main(String[] args) {
+		
+		Students s1 = new Students("Tanmoy","A",1200);
+		System.out.println(s1.getName());
+		System.out.println(s1.getSection());
+		System.out.println(s1.getroll());
+	}
+}

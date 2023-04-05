@@ -1,0 +1,25 @@
+package amazone;
+
+public class Students {
+
+	private String name;
+	private String section;
+	private int rollNum;
+	
+	public Student(String name, String section, int rollNum) {
+		this.name=name;
+		this.section=section;
+		this.rollNum=rollNum;
+		
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	
+}
